@@ -21,7 +21,7 @@
 <p align="center">
   <sup>1</sup>CUHK-Shenzhen; 
   <sup>2</sup>Xiamen Univeristy; 
-  <sup>3</sup>UESTC;
+  <sup>3</sup>University of Electronic Science and Technology of China;
   <sup>4</sup>Foshan Univeristy;
   <sup>5</sup>Tongji Univeristy;
 </p>
