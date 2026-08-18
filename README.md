@@ -30,4 +30,6 @@
   <sup>*</sup>Equal contribution. <sup>†</sup>Corresponding author.
 </p>
 
-**Comming Soon**
+## <a id="news"></a> 🔥 News
+- 🎉[July 10, 2026]: GeoLink is accepted by ACMMM'26. See you in Rio de Janeiro, Brazil!
+- 🚩[April 13, 2026]: The preprint version has been released in [Paper Link](https://arxiv.org/pdf/2604.13183).  
