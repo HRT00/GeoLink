@@ -9,7 +9,7 @@
 </h5>
 
 <p align="center">
-  By <a href="https://hrt00.github.io/hyzhang.github.io/" target="_blank">Hongyang Zhang<sup>1,*</sup></a>,&nbsp;
+  <a href="https://hrt00.github.io/hyzhang.github.io/" target="_blank">Hongyang Zhang<sup>1,*</sup></a>,&nbsp;
   Yinhao Liu<sup>2,*</sup>,&nbsp;
   Haitao Zhang<sup>2</sup>,&nbsp;
   Zhongyi Wen<sup>3</sup>,&nbsp;
@@ -21,7 +21,7 @@
 <p align="center">
   <sup>1</sup>CUHK-Shenzhen; 
   <sup>2</sup>Xiamen Univeristy; 
-  <sup>3</sup>University of Electronic Science and Technology of China;
+  <sup>3</sup>UESTC;
   <sup>4</sup>Foshan Univeristy;
   <sup>5</sup>Tongji Univeristy;
 </p>
