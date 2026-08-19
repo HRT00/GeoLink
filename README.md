@@ -33,3 +33,26 @@
 ## <a id="news"></a> 🔥 News
 - 🎉[July 10, 2026]: GeoLink is accepted by ACMMM'26. See you in Rio de Janeiro, Brazil!
 - 🚩[April 13, 2026]: The preprint version has been released in [Paper Link](https://arxiv.org/pdf/2604.13183).  
+
+## 🚀 How to Use
+(1) Environment
+
+To set up the environment, run:
+```
+# python 3.10
+conda create -n cvgl python=3.10 -y
+conda activate cvgl
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+## Cite
+If you find our paper and code useful in your research, please consider citing our work 📝:
+```bibtex
+@article{zhang2026geolink,
+  title={GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization},
+  author={Zhang, Hongyang and Liu, Yinhao and Zhang, Haitao and Wen, Zhongyi and Kuang, Zhenyu and Liang, Shuxian and Hua, Xiansheng},
+  journal={arXiv preprint arXiv:2604.13183},
+  year={2026}
+}
+```
