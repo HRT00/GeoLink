@@ -15,7 +15,7 @@
   Zhongyi Wen<sup>3</sup>,&nbsp;
   Zhenyu Kuang<sup>4</sup>,&nbsp;
   Shuxian Liang<sup>5,†</sup>;
-  Xiansheng Hua<sup>5,†</sup>
+  Xian-Sheng Hua<sup>5,†</sup>
 </p>
 
 <p align="center">
