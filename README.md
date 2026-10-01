@@ -77,7 +77,7 @@ this layout. For SUES and DenseUAV, use the corresponding point-cloud training
 folder configured in their training scripts, with one sample folder containing
 `points3D.txt` per sample.
 
-The source code includes the following training and inference scripts:
+(3) Training and Inference
 
 The source code includes the following training and inference scripts:
 
