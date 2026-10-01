@@ -47,7 +47,37 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-(2) Training and inference scripts
+(2) Dataset
+
+The GeoLink-3D point-cloud dataset is available on
+[Hugging Face](https://huggingface.co/datasets/ZhangHY/GeoLink-3D). Download and
+place the point clouds under the corresponding dataset's training directory.
+For the University-1652 layout, the expected structure is:
+
+```
+University-1652/
+└── train/
+    ├── drone/
+    ├── satellite/
+    └── drone_3D/
+        ├── 0839_group0/
+        │   └── points3D.txt
+        ├── 0839_group1/
+        │   └── points3D.txt
+        └── 0839_group2/
+            └── points3D.txt
+```
+
+In other words, put the `*_group0`, `*_group1`, and `*_group2` sample folders
+directly inside `train/drone_3D/`; do not add another nested `drone_3D/`
+directory. Each sample folder contains its COLMAP `points3D.txt`. The dataset
+loader reads XYZ and RGB from that file. The University example at
+`/media/lscsc/nas2/hongyang/dataset/University-1652/train/drone_3D/` follows
+this layout. For SUES and DenseUAV, use the corresponding point-cloud training
+folder configured in their training scripts, with one sample folder containing
+`points3D.txt` per sample.
+
+The source code includes the following training and inference scripts:
 
 The source code includes the following training and inference scripts:
 
