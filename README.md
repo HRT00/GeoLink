@@ -31,6 +31,7 @@
 </p>
 
 ## <a id="news"></a> 🔥 News
+- 🎉[October 1, 2026]: The source code and [GeoLink-3D dataset](https://huggingface.co/datasets/ZhangHY/GeoLink-3D) have been released.
 - 🎉[July 10, 2026]: GeoLink is accepted by ACMMM'26. See you in Rio de Janeiro, Brazil!
 - 🚩[April 13, 2026]: The preprint version has been released in [Paper Link](https://arxiv.org/pdf/2604.13183).  
 
@@ -45,6 +46,13 @@ conda activate cvgl
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+(2) Training and inference scripts
+
+The source code includes the following training and inference scripts:
+
+- Training: `train_university.py`, `train_sues.py`, and `train_denseuav.py`.
+- Inference: `eval_sues.py`.
 
 ## Cite
 If you find our paper and code useful in your research, please consider citing our work 📝:
