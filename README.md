@@ -32,6 +32,7 @@
 
 ## <a id="news"></a> 🔥 News
 - 🎉[October 1, 2026]: The source code and [GeoLink-3D dataset](https://huggingface.co/datasets/ZhangHY/GeoLink-3D) have been released.
+- 😃 [September 20, 2026]: GeoLink was featured on [WeChat](https://mp.weixin.qq.com/s/OxTDz4_yiE_sIRmfN3dRTg) (公众号：**Visual-Language Navigation / 视觉语言导航**).
 - 🎉[July 10, 2026]: GeoLink is accepted by ACMMM'26. See you in Rio de Janeiro, Brazil!
 - 🚩[April 13, 2026]: The preprint version has been released in [Paper Link](https://arxiv.org/pdf/2604.13183).  
 
