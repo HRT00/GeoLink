@@ -84,7 +84,7 @@ Place the point clouds for each dataset as follows (paths are relative to its da
 | Dataset | Point-cloud directory |
 | --- | --- |
 | University-1652 | `train/drone_3D/` |
-| SUES-200, 300 m | `Training/300/drone300_colmap_output/` |
+| SUES-200 @ 300 m | `Training/300/drone300_colmap_output/` |
 | DenseUAV | `train/denseUAV_colmap_output/` |
 
 Set `pointcloud_folder_train` to the directory that directly contains the group folders. For the University-1652 layout above, use:
