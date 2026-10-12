@@ -55,8 +55,17 @@
 </p>
 
 <p align="center">
-  <em>Click the poster to open the full-resolution image.</em>
+  <em>GeoLink uses reconstructed scene-level 3D structures to guide cross-view representation learning while retaining an image-only inference pipeline. Click the poster to view the full-resolution image.</em>
 </p>
+
+Generalizable cross-view geo-localization asks a model to match ground or UAV queries with satellite images in unseen regions and conditions. Viewpoint changes introduce occlusion, limited fields of view, and ambiguous visual cues, while geographic and weather shifts further weaken the transferability of 2D representations.
+
+Our central insight is that scene-level 3D geometry provides a stable structural anchor for learning transferable visual information. GeoLink develops this insight through two complementary capabilities:
+
+- **3D-guided semantic refinement** — reconstruct scene point clouds from multi-view drone images and use local-global 3D structures to suppress redundant, view-biased information in 2D features.
+- **Unified view relation distillation** — transfer structural relations from 3D teacher features to the 2D image encoder, improving cross-view alignment and generalization.
+
+GeoLink uses 3D information only during training. At inference time, it directly extracts descriptors from query and gallery images, preserving a practical 2D-only retrieval interface with baseline-comparable computational cost.
 
 ## 🚀 How to Use
 
