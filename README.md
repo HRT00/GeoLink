@@ -46,16 +46,16 @@
 
 | Problem | Core idea | Interface |
 | --- | --- | --- |
-| View changes introduce occlusion, limited fields of view, and domain shifts, causing severe semantic inconsistency and weak cross-area generalization. | GeoLink reconstructs scene-level 3D structural anchors with frozen VGGT, uses them to refine view-biased 2D representations, and distills transferable 3D relations into the image encoder. | **3D-aware training → 2D-only inference.** Point clouds guide representation learning during training, while deployment uses only query and gallery images with baseline-comparable cost. |
+| View-induced semantic inconsistency | 3D-guided refinement and relation distillation | 3D-aware training → 2D-only inference |
 
 <p align="center">
-  <a href="poster.pdf">
+  <a href="assets/poster.png">
     <img src="assets/poster.png" width="100%" alt="GeoLink poster overview">
   </a>
 </p>
 
 <p align="center">
-  <em>Click the poster to open the full-resolution PDF.</em>
+  <em>Click the poster to open the full-resolution image.</em>
 </p>
 
 ## 🚀 How to Use
