@@ -46,7 +46,7 @@
 
 | Problem | Core idea | Interface |
 | --- | --- | --- |
-| View-induced semantic inconsistency | 3D-guided refinement and relation distillation | 3D-aware training → 2D-only inference |
+| View-inconsistent semantics limit generalization performance | 3D-guided refinement and relation distillation | 3D-aware training → 2D-only inference |
 
 <p align="center">
   <a href="assets/poster.png">
