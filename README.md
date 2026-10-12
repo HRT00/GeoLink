@@ -9,6 +9,12 @@
 </h5>
 
 <p align="center">
+  <a href="https://github.com/HRT00/GeoLink"><img src="https://img.shields.io/badge/Project-GitHub-181717?logo=github&logoColor=white" alt="Project"></a>
+  <a href="https://opensource.org/license/mit"><img src="https://img.shields.io/badge/License-MIT-2ea44f" alt="MIT License"></a>
+  <a href="https://arxiv.org/abs/2604.13183"><img src="https://img.shields.io/badge/arXiv-2604.13183-b31b1b" alt="arXiv"></a>
+</p>
+
+<p align="center">
   <a href="https://hrt00.github.io/hyzhang.github.io/" target="_blank">Hongyang Zhang<sup>1,*</sup></a>,&nbsp;
   Yinhao Liu<sup>2,*</sup>,&nbsp;
   Haitao Zhang<sup>2</sup>,&nbsp;
@@ -35,6 +41,22 @@
 - 😃 [September 20, 2026]: GeoLink was featured on [WeChat](https://mp.weixin.qq.com/s/OxTDz4_yiE_sIRmfN3dRTg) (公众号：**Visual-Language Navigation / 视觉语言导航**).
 - 🎉[July 10, 2026]: GeoLink is accepted by ACMMM'26. See you in Rio de Janeiro, Brazil!
 - 🚩[April 13, 2026]: The preprint version has been released in [Paper Link](https://arxiv.org/pdf/2604.13183).  
+
+## 🖼️ Poster Overview
+
+| Problem | Core idea | Interface |
+| --- | --- | --- |
+| View changes introduce occlusion, limited fields of view, and domain shifts, causing severe semantic inconsistency and weak cross-area generalization. | GeoLink reconstructs scene-level 3D structural anchors with frozen VGGT, uses them to refine view-biased 2D representations, and distills transferable 3D relations into the image encoder. | **3D-aware training → 2D-only inference.** Point clouds guide representation learning during training, while deployment uses only query and gallery images with baseline-comparable cost. |
+
+<p align="center">
+  <a href="poster.pdf">
+    <img src="assets/poster.png" width="100%" alt="GeoLink poster overview">
+  </a>
+</p>
+
+<p align="center">
+  <em>Click the poster to open the full-resolution PDF.</em>
+</p>
 
 ## 🚀 How to Use
 
